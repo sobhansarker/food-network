@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    display: flex;
+    margin-left: 5%;
+    font-size: 30px;
+    margin-bottom: 100px;
+    width: 90%;
+}
+.intro{
+    margin-top: 100px;
+}
+.intro h1{
+    font-weight: 900px;
+}
+.half-width{
+    width: 50%;
+    padding: 30px;
+}
+
+
+img{
+    width: 80%;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, tomato, #c0d124);
+    padding: 15px;
+    border-radius: 35px;
+}
+.txt-clr{
+    color: rgb(240, 193, 39);
+}
+.txt-clr1{
+    color: orange;
+}
+
+
+.about-div{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+}
+.recipe-details{
+    text-align: center;
+    margin: 100px auto;
+    width: 60%;
+}
+
+.item-detail{
+    height: 620px;
+    border-radius: 9px;
+    width: 90%;
+    margin: 100px auto;
+    font-size: 25px;
+}
+
+.items{
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 80px grey;
+    width: 30%;
+    margin: auto;
+}
+
+.item-img, .item-dis{
+    
+    height: 45%;
+    margin: 5%;
+    
+}
+
+
+.item-detail .items .item-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.count .count-item p{
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.count .count-item h1{
+    font-weight: bolder;
+    margin-top: 70px;
+}
+
+.count{
+    border-radius: 15px;
+    box-shadow: 10px 10px 80px grey;
+    height: 250px;
+    width: 90%;
+    
+}
+
+.count-item{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    height: 200px;
+    background-color:rgb(9, 9, 34);
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer p{
+    color: palegoldenrod;
+}
+footer h1{
+    color: rgb(46, 45, 29);
+}
+
